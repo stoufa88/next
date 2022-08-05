@@ -15,5 +15,5 @@ const Template: ComponentStory<typeof H1> = (args) => <H1 {...args} />;
 export const h1 = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 h1.args = {
-  children: 'Tipaw',
+  children: 'Next JS',
 };
